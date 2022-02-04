@@ -27,5 +27,5 @@ jobs:
             gentxs/*.json
       - name: Validate Gentx Submission
         run: |
-          make TODO
+          make validate-gentxs
         if: env.GIT_DIFF
