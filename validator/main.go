@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 
 	gravitytypes "github.com/Gravity-Bridge/Gravity-Bridge/module/x/gravity/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -18,6 +19,10 @@ import (
 func main() {
 	for i, file := range os.Args {
 		if i == 0 {
+			continue
+		}
+
+		if !strings.Contains(file, ".json") {
 			continue
 		}
 
@@ -106,7 +111,6 @@ func main() {
 		}
 
 		// validate signatures
-		// TODO: change ChainID and maybe account number?
 		for _, sig := range signatures {
 			err := signing.VerifySignature(sig.PubKey, signing.SignerData{
 				ChainID:       "888",
