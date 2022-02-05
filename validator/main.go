@@ -73,7 +73,6 @@ func main() {
 				if err != nil {
 					log.Fatal(err)
 				}
-
 			} else {
 				log.Fatal(fmt.Errorf(
 					"gentx %d contains invalid message at index 1; expected: %T; got: %T",
