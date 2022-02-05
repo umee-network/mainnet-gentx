@@ -54,7 +54,6 @@ func main() {
 			}
 
 			if msgCreateVal, ok := msgs[0].(*stakingtypes.MsgCreateValidator); ok {
-
 				err := msgCreateVal.ValidateBasic()
 				if err != nil {
 					log.Fatal(err)
