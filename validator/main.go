@@ -33,7 +33,6 @@ func main() {
 		}
 
 		encCfg := umeeapp.MakeEncodingConfig()
-
 		genState := genutiltypes.GenesisState{GenTxs: []json.RawMessage{gentx}}
 
 		txJSONDecoder := encCfg.TxConfig.TxJSONDecoder()
