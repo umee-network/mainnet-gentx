@@ -23,10 +23,12 @@ func main() {
 			continue
 		}
 
-		parent := filepath.Dir(file)
-		log.Fatal("Test :" + parent)
 		if !strings.Contains(file, ".json") {
 			continue
+		}
+
+		if filepath.Dir(file) != "gentxs" {
+			log.Fatal("gentxs should go into the gentx directory")
 		}
 
 		filecontents, err := ioutil.ReadFile(file)
