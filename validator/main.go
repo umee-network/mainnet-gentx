@@ -25,7 +25,7 @@ func main() {
 
 		parent := filepath.Dir(file)
 		log.Fatal("Test :" + parent)
-		if strings.Contains(file, ".json") {
+		if !strings.Contains(file, ".json") {
 			continue
 		}
 
