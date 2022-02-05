@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
 	"strings"
 
 	gravitytypes "github.com/Gravity-Bridge/Gravity-Bridge/module/x/gravity/types"
@@ -22,7 +23,9 @@ func main() {
 			continue
 		}
 
-		if !strings.Contains(file, ".json") {
+		parent := filepath.Dir(file)
+		log.Fatal("Test :" + parent)
+		if strings.Contains(file, ".json") {
 			continue
 		}
 
