@@ -106,7 +106,7 @@ func main() {
 		// TODO: change ChainID and maybe account number?
 		for _, sig := range signatures {
 			err := signing.VerifySignature(sig.PubKey, signing.SignerData{
-				ChainID:       "888",
+				ChainID:       "umee-1",
 				AccountNumber: 0,
 				Sequence:      sig.Sequence,
 			},
