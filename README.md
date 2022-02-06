@@ -16,6 +16,10 @@ after the validator's moniker, e.g. `myval.json`.
 
 ## FAQ
 
+### What is the chain-ID?
+
+`umee-1`
+
 ### What version of `umeed` do I use to generate a gentx?
 
 You can use the latest release, v0.7.x at the time of this writing. We will be
@@ -57,7 +61,3 @@ If a transaction is made with any of these accounts (orchestrator address or
 Ethereum address), it will result in a "nonce unsync" and Peggo will start
 throwing some errors. Peggo will re-sync and re-try, but it's better to avoid
 that.
-
-### What is the chain-ID?
-
-`umee-1`
