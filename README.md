@@ -57,3 +57,7 @@ If a transaction is made with any of these accounts (orchestrator address or
 Ethereum address), it will result in a "nonce unsync" and Peggo will start
 throwing some errors. Peggo will re-sync and re-try, but it's better to avoid
 that.
+
+### What is the chain-ID?
+
+`umee-1`
