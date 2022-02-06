@@ -32,11 +32,12 @@ rate exceeds 10%.
 ### What do I specify for `amount`, i.e. how much do I self-delegate?
 
 If you have tokens at genesis, you are free to self-delegate how ever many tokens
-you wish. If you participated in the Umee testnets, the team has selected various
-validators to provide tokens to. Please reach out to the team for more information.
-If you are a strategic validator without any tokens at genesis, the team will
-provide you 1 umee token to bootstrap your validator and further delegations after
-TGE.
+you wish. The team will make delegation decisions based on previous testnet
+performance and strategic considerations. If you do not have any tokens at
+genesis but you are highly involved in the Cosmos or Umee ecosystem, you are
+suggested to reach out to the team to be considered as a strategic validator and
+get delegation; the team will provide you 1 umee token to bootstrap your validator
+and further delegations after TGE.
 
 ### Can I use a different account for the orchestrator and the validator?
 
