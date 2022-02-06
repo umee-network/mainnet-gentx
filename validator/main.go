@@ -136,5 +136,4 @@ func main() {
 		}
 		log.Println("gentx is valid")
 	}
-
 }
