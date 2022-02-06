@@ -5,7 +5,7 @@ validators.
 
 To create a gentx:
 
-```
+```shell
 $ umeed gentx-gravity [key_name] [amount] [eth-address] [orchestrator-address]
 ```
 
@@ -14,8 +14,25 @@ $ umeed gentx-gravity [key_name] [amount] [eth-address] [orchestrator-address]
 Submit your gentx to this repostiory via a Pull Request with the gentx file named
 after the validator's moniker, e.g. `myval.json`.
 
-
 ## FAQ
+
+### What version of `umeed` do I use to generate a gentx?
+
+You can use the latest release, v0.7.x at the time of this writing. We will be
+publishing an official v1.0.0 release that will be used for mainnet shortly. You
+can use that version as well.
+
+### What are the validator commission rules?
+
+There is no minimum or maximum validator commission enforcement by the Umee
+protocol. However, we will not accept gentxs with a commission rate of less than
+2%. In addition, the Foundation will not delegate to validators whose commission
+rate exceeds 10%.
+
+### What do I specify for `amount`, i.e. how much do I self-delegate?
+
+If you have tokens at genesis, you are free to self-delegate how ever many tokens
+you wish. Otherwise, please contact the Umee team.
 
 ### Can I use a different account for the orchestrator and the validator?
 
