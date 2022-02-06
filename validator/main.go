@@ -17,6 +17,10 @@ import (
 	umeeapp "github.com/umee-network/umee/app"
 )
 
+var (
+	minCommissionAllowed = sdk.MustNewDecFromStr("0.02")
+)
+
 func main() {
 	for i, file := range os.Args {
 		if i == 0 {
@@ -69,7 +73,11 @@ func main() {
 				}
 
 				if msgCreateVal.Value.Denom != umeeapp.BondDenom {
-					log.Fatal("Delegation amount must be in uumee")
+					log.Fatalf("Delegation denomination must be %s", umeeapp.BondDenom)
+				}
+
+				if msgCreateVal.Commission.Rate.LT(minCommissionAllowed) {
+					log.Fatalf("Validator commission must be at least 2%%: %s", msgCreateVal.Commission.Rate)
 				}
 			} else {
 				log.Fatal(fmt.Errorf(
