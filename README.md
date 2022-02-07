@@ -23,6 +23,14 @@ $ umeed add-genesis-account wallet 1000000uumee
 $ umeed gentx-gravity [key_name] [amount] [eth-address] [orchestrator-address]
 ```
 
+- `key_name` and `amount` are the same as in the default gentx command.
+- `eth-address` is the Ethereum address that is going to be used to sign batches
+and validator set updates going to Ethereum. It is recommended that this account
+is only used for this purpose and nothing else.
+- `orchestrator-address`is the Umee account that is going to be used to sign
+claims going from Ethereum to Umee. It is recommended that this account
+is only used for this purpose and nothing else.
+
 > Please note that the command is `umeed gentx-gravity` and not `umeed gentx`.
 
 Submit your gentx to this repostiory via a Pull Request with the gentx file named
