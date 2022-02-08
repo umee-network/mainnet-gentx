@@ -16,17 +16,17 @@
           "max_change_rate": "0.010000000000000000"
         },
         "min_self_delegation": "1",
-        "delegator_address": "umee1g4ve6uxpcccechgjwuyhalhj3qd44zsfq6hqn2",
-        "validator_address": "umeevaloper1g4ve6uxpcccechgjwuyhalhj3qd44zsfq7s0zq",
+        "delegator_address": "umee1qa5gkv8a4rzpncgkguv2szh5s83kh69l0rddnm",
+        "validator_address": "umeevaloper1qa5gkv8a4rzpncgkguv2szh5s83kh69l082zz3",
         "pubkey": {
           "@type": "/cosmos.crypto.ed25519.PubKey",
           "key": "4PmFMAwTFJVvJ9Tw9Xmmtt7ZM8zKp1+pAkCQFYUZGms="
         },
-        "value": { "denom": "uumee", "amount": "10000000" }
+        "value": { "denom": "uumee", "amount": "1000000" }
       },
       {
         "@type": "/gravity.v1.MsgSetOrchestratorAddress",
-        "validator": "umeevaloper1g4ve6uxpcccechgjwuyhalhj3qd44zsfq7s0zq",
+        "validator": "umeevaloper1qa5gkv8a4rzpncgkguv2szh5s83kh69l082zz3",
         "orchestrator": "umee1yqpyjke2st765npyu3rfd9xa2mkewzq5vprxyq",
         "eth_address": "0x743802032D3547B4254Ce176FB791a81c8d2288B"
       }
@@ -41,7 +41,7 @@
       {
         "public_key": {
           "@type": "/cosmos.crypto.secp256k1.PubKey",
-          "key": "A2TpOdOVVqvgZYAsGDHR1JvjkjGOYq80joBuUkOTWUNH"
+          "key": "Awo1fBI3EpopzFwvhc4BFicq8EUBvodU7oEsJ4F95Pnz"
         },
         "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
         "sequence": "0"
@@ -50,6 +50,6 @@
     "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
   },
   "signatures": [
-    "7xfQ77v27rWxdt8ZXHwEMbdxOtK+yPlF3k3BN8yGAytTxX9RaAbwhr5gTxSjPEVAYiHNE4NtIeMMHBP5JStrUQ=="
+    "wAAye3JfLCzos9tYqJxF0MjA+0N08JFLqzQU3EQM99gkCF7bGQJO0Y/fj9ujmOsAYpLtBcT42bzSYX0V24esRw=="
   ]
 }
