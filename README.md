@@ -10,11 +10,11 @@ $ cd $HOME
 $ git clone https://github.com/umee-network/umee.git
 $ cd umee
 $ git pull
-$ git checkout tags/v0.7.4
+$ git checkout tags/v1.0.1
 $ make build
 $ sudo cp $HOME/umee/build/umeed /usr/local/bin
 $ umeed version
-# Should be v0.7.4
+# Should be v1.0.1
 ```
 ```shell
 # Create gentx
@@ -52,7 +52,7 @@ can use that version as well.
 
 There is no minimum or maximum validator commission enforcement by the Umee
 protocol. However, we will not accept gentxs with a commission rate of less than
-2%. In addition, the Foundation will not delegate to validators whose commission
+2%. In addition, the Foundation will not delegate to validators whose **max** commission
 rate exceeds 10%.
 
 ### What do I specify for `amount`, i.e. how much do I self-delegate?
