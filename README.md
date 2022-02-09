@@ -10,11 +10,11 @@ $ cd $HOME
 $ git clone https://github.com/umee-network/umee.git
 $ cd umee
 $ git pull
-$ git checkout tags/v0.7.4
+$ git checkout tags/v1.0.1
 $ make build
 $ sudo cp $HOME/umee/build/umeed /usr/local/bin
 $ umeed version
-# Should be v0.7.4
+# Should be v1.0.1
 ```
 ```shell
 # Create gentx
