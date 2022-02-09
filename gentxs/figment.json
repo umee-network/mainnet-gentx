@@ -12,7 +12,7 @@
         },
         "commission": {
           "rate": "0.075000000000000000",
-          "max_rate": "0.200000000000000000",
+          "max_rate": "0.100000000000000000",
           "max_change_rate": "0.050000000000000000"
         },
         "min_self_delegation": "1",
@@ -62,6 +62,6 @@
     }
   },
   "signatures": [
-    "pmakZfRtR2KLJqAOEsWjDZhEDKLfjcWz3crOPKKdyH8eEmv1tVshD1TnRdOSW+rYE2tfs1YZSeJ/xc7c2rr15Q=="
+    "I13+0+k/ojtbZ+bJptN/QlPir9aIqLmBIeqAIArGrghNTBG+a1BEO/vZfr0cHpl9MYPa35few782qijYdMPwag=="
   ]
 }
