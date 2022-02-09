@@ -23,7 +23,7 @@
           "key": "m2KhNhN/6Y1qZUSk3n8ypm3Mu37iDQD8MPTM9IW0Zd4="
         },
         "value": {
-          "denom": "umee",
+          "denom": "uumee",
           "amount": "1000000"
         }
       },
@@ -34,7 +34,7 @@
         "eth_address": "0x7127fb9b5d23fe26f323dcf0f2b009282a1e1e7a"
       }
     ],
-    "memo": "e64adff0a1526fbd23d982cdcc4124847595f4a6@10.26.201.50:26656",
+    "memo": "ceeee3e046df78612f0d5b46271b59b40af0391e@192.168.1.87:26656",
     "timeout_height": "0",
     "extension_options": [],
     "non_critical_extension_options": []
@@ -62,6 +62,6 @@
     }
   },
   "signatures": [
-    "wFyH51cnA/iAoi7jhBfUWR0omctBUnJqDYjGjW1kGsw70LPTZnPla9TjTL6EXi2v2lBtpCHyaLNHlBEt7cMvRw=="
+    "pmakZfRtR2KLJqAOEsWjDZhEDKLfjcWz3crOPKKdyH8eEmv1tVshD1TnRdOSW+rYE2tfs1YZSeJ/xc7c2rr15Q=="
   ]
 }
