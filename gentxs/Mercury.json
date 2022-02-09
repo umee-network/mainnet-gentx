@@ -11,8 +11,8 @@
           "details": "Professional validators on baremetal servers. May the stake be with you!"
         },
         "commission": {
-          "rate": "0.050000000000000000",
-          "max_rate": "0.200000000000000000",
+          "rate": "0.100000000000000000",
+          "max_rate": "0.100000000000000000",
           "max_change_rate": "0.050000000000000000"
         },
         "min_self_delegation": "1",
@@ -62,6 +62,6 @@
     }
   },
   "signatures": [
-    "H3KMdVBZawDSEnE0eIU2EhzBvMFCdQllrZdm/07prgt8+194NEvoBXMthlApUYGhmo2JQg7cmeiqDSpbxx4afw=="
+    "2OXpViJposhAeCBE5Hft6jWv0xSxoMY53b5HUhrtJSYCbXqDLUrb0GaPsTqrrLeQrJjARouIkHvKBqQN+WbZ5w=="
   ]
 }
