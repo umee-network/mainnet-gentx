@@ -227,7 +227,7 @@
       },
       "params": {
         "mint_denom": "uumee",
-        "inflation_rate_change": "2.000000000000000000",
+        "inflation_rate_change": "1.000000000000000000",
         "inflation_max": "0.140000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.330000000000000000",
