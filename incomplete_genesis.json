@@ -112,10 +112,10 @@
             "amount": "10000000000"
           }
         ],
-        "max_deposit_period": "14d"
+        "max_deposit_period": "336h"
       },
       "voting_params": {
-        "voting_period": "5d"
+        "voting_period": "120h"
       },
       "tally_params": {
         "quorum": "0.400000000000000000",
@@ -227,7 +227,7 @@
       },
       "params": {
         "mint_denom": "uumee",
-        "inflation_rate_change": "2.000000000000000000",
+        "inflation_rate_change": "1.000000000000000000",
         "inflation_max": "0.140000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.330000000000000000",
@@ -248,7 +248,7 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "14d",
+        "unbonding_time": "336h",
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
