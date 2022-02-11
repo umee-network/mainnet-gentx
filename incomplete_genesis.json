@@ -112,7 +112,7 @@
             "amount": "10000000000"
           }
         ],
-        "max_deposit_period": "14d"
+        "max_deposit_period": "336h"
       },
       "voting_params": {
         "voting_period": "5d"
